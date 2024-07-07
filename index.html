@@ -1,10 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="html">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>CV</title>
+  <link rel="stylesheet" href="./normalize.css"/>
+  <link rel="stylesheet" href="./style.css"/>
 </head>
-<body>
+<body class="body">
+  <header class="header">
+    <img class="header__image" src="./image.png" alt="Аватар профиля">
+    <div class="header__container">
+      <h1 class="header__title">Oleg Shchelkunov</h1>
+      <nav class="menu">
+        <ul class="menu__list">
+         <li class="menu__item">
+          <a href="#contacs" class="menu__link">contacs</a>
+         </li>
+         <li class="menu__item">
+          <a href="#about" class="menu__link">about</a>
+         </li>
+         <li class="menu__item">
+          <a href="#code" class="menu__link">code</a>
+         </li>
+         <li class="menu__item">
+          <a href="#education" class="menu__link">education</a>
+         </li>
+         <li class="menu__item">
+          <a href="#skills" class="menu__link">skills</a>
+         </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="main">
+   <section class="contacts" id="contacts">
+    <h2 class="contacts__header">contacts</h2>
+    <p class="contacts__description">Email: olegshch@mail.ru</p>
+   </section>
+   <section class="about" id="about">
+    <h2 class="contacts__about">about</h2>
+    <p class="about__description">I chose the difficult path of learning frontend while working in a completely different specialty.</p>
+   </section>
+   <section class="code" id="code">
+    <h2 class="contacts__code">code</h2>
+    <p class="code__description">console.log("Hello, world!")</p>
+   </section>
+   <section class="education" id="education">
+    <h2 class="contacts__education">education</h2>
+    <p class="education__description">“Moscow College of Geodesy and Cartography”</p>
+   </section>
+   <section class="skills" id="skills">
+    <h2 class="contacts__skills">skills</h2>
+    <p class="skills__description">Russian (native) English (A1~A2)</p>
+   </section>
+  </main>
+  <footer class="footer">
+  </footer>
 </body>
 </html>
